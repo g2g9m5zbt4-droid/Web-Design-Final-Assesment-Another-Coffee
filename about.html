@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explanation of the Aether Coffee website design.">
+  <title>Explanation – Aether Coffee</title>
+  <link rel="stylesheet" href="script.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <p class="site-title"><a href="index.html">Aether Coffee</a></p>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About &amp; Contact</a></li>
+          <li><a href="explanation.html" aria-current="page">Explanation</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>Explanation of My Website</h1>
+
+      <section>
+        <p>
+          For the Web Design Final Assessment I created a website for a fictional coffee shop called Aether Coffee. Aether Coffee. 
+          It has three pages: Home, Menu and About &amp;. I only used HTML and CSS, no JavaScript. 
+          I tried to follow the things we learned in module 1 about structure, design and making the site easy to read.
+        </p>
+      </section>
+
+      <section>
+        <h2>Structure</h2>
+        <p>
+          I tried to use proper semantic HTML like we were taught. Every page has a header with the site name 
+          and the navigation links. Then there is a main section for the content and a footer at the bottom. 
+          I used section tags to break up the different parts of the pages and I put headings in order (h1, then h2, then h3).
+        </p>
+        <p>
+          On the home page I used article tags for the three small cards about what the café offers. 
+          For the menu I used lists so the prices line up nicely. The pictures have alt text so screen readers 
+          can understand them, and I put them inside figure tags with a small caption underneath. 
+          The navigation also shows which page you are on by using aria-current. I think the structure is quite 
+          clear and it should be okay for accessibility.
+        </p>
+      </section>
+
+      <section>
+        <h2>Design Choices</h2>
+        <p>
+          For the design I wanted it to feel warm and calm, like a real coffee shop. I picked brown and cream 
+          colours because they look like coffee and also have decent contrast, I also used a sage like green as I feel it just goes well. The text is in a serif font and 
+          I made the line height a bit bigger so it’s easier to read. I also limited the width of the content 
+          so the lines don’t get too long.
+        </p>
+        <p>
+          I used a sticky header so the menu stays visible when you scroll( nobody liked to scroll all the way back up). The cards on the home page and the 
+          info boxes on the about page have light backgrounds and soft borders. The buttons are dark brown so 
+          they stand out. I also added a small media query so the layout changes a bit on smaller screens. 
+          Overall I tried to keep the design simple and clean rather than putting too many effects.
+        </p>
+      </section>
+
+      <section>
+        <h2>Challenges</h2>
+        <p>
+          One of the harder parts was making the menu prices sit on the right side without using a table. 
+          I ended up using flexbox on the list items and it worked okay. Getting the spacing between headings 
+          and paragraphs to look even took a few tries. Also, because it’s a static site, I had to copy the 
+          header and footer onto every page, which is annoying if you need to change something later.
+        </p>
+        <p>
+          I wasn’t sure about the colours at first and had to check if the contrast was good enough. 
+          Finding simple placeholder images that still looked right was also a bit tricky. Overall the main 
+          challenge was just making everything consistent across the three pages.
+        </p>
+      </section>
+
+      <section>
+        <h2>Improvements</h2>
+        <p>
+          There are a few things I would improve if I had more time. I could add a skip to content link for 
+          better accessibility. Print styles would be useful for the menu page. If the site got bigger I would 
+          need a better way to share the header and footer instead of copying them. Real photos would look better 
+          than the placeholder ones I used. A contact form would also be nice, even if it’s just basic HTML.
+        </p>
+        <p>
+          I could also test the site more carefully with accessibility tools and try it on different phones. 
+          The layout works on smaller screens but it could be improved. These are things I would work on if 
+          this was a bigger project.
+        </p>
+      </section>
+
+      <section>
+        <p>
+          In the end I’m quite happy with how the website turned out. It shows the basic things we learned in 
+          module 1 like using semantic HTML, separating content from style, and thinking about readability and 
+          simple design. It’s not perfect but it works and I think it looks okay.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2026 Aether Coffee. All rights reserved.</p>
+      <p><a href="index.html">Back to home</a></p>
+    </div>
+  </footer>
+</body>
+</html>
